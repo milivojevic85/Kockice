@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Kocka</title>
+	<link rel="stylesheet" type="text/css" href="gambling.css">
+  </head>
+
+  <body>
+
+	<table>
+		 <tr>
+		  <td>Koliko novca dodajete:<input type="text" id="dodatak"/>dinara</td>
+		  <td><input type="button" value="DODAJ" onClick="dodaj()" /> </td>		  
+		 </tr>
+	    <tr>
+		  <td>Ukupno na raspolaganju: <div id="stanje">0</div> dinara</td>		  
+		 </tr>
+		 <tr>
+			<td>Koliko novca ulažete:</td>
+		    <td><input type="number" id="ulog" required /></td>
+		  </tr>
+		 <tr>
+			<td>Na koji broj se kladite:</td>
+		    <td><input type="number" id="opklada" required /></td>
+		  </tr>
+		  <tr>
+		    <td><input type="button" value="Baci kockicu" onClick="kockaJeBacena()" /></td>
+		  </tr>
+	</table>
+	
+	<div id="kocka"></div>	
+	<div id="poruka">Privremena poruka</div>
+	
+	<script src="gambling.js"></script>
+
+  </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

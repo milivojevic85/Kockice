@@ -1,0 +1,76 @@
+body {
+	background-image: url("roll.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+td {
+	color: beige;
+}
+
+table {
+	margin: 0 auto;
+}
+
+
+#dodatak{
+	width: 50px;
+	padding-left: 2px;
+}
+
+#stanje{
+	display: inline;
+}
+
+#kocka {
+	width: 50px;
+	height: 62px;
+	text-align: center;
+	color: black;
+	padding: 5px 12px;
+	font-size: 50px;
+	margin: 15px auto;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#poruka {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+.zeleno{
+	color:lime;
+}
+.crveno{
+	color:red;
+}
+.neutral{
+	color:silver;
+}
+
+.zuto{
+	background-color: yellow;
+}
+.oranz{
+	background-color: orange;
+}
+.crvenkasto{
+	background-color: tomato;
+}
+.roze{
+	background-color: pink;
+}
+.ruzicasto{
+	background-color: magenta;
+}
+.plavo{
+	background-color: blue;
+}
+
+
+
+
+
+
+
+
